@@ -16,7 +16,9 @@ To download, word vectors trained using word2vec:
 
 ## Results
 Number of Parameters : 202351
+
 Training Accuracy : 93.59%
+
 Testing Accuracy : 89.62%
 
 ## References
