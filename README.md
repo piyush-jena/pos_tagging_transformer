@@ -4,7 +4,7 @@ This repo contains tutorials covering how to perform part-of-speech (PoS) taggin
 
 ## Getting Started
 
-To install PyTorch, see installation instructions on the [PyTorch website]([pytorch.org](https://pytorch.org/get-started/locally/)).
+To install PyTorch, see installation instructions on the [PyTorch website](https://pytorch.org/get-started/locally/).
 
 To download, conll 2003 dataset formatted for this code (thanks to Hugging Face!): 
 * [Training set](https://drive.google.com/file/d/1PTfU4nI6aKrV9xsASFbOUf6Lkwxo1eD9/view?usp=sharing)
