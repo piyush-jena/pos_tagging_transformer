@@ -5,10 +5,12 @@ This repo contains tutorials covering how to perform part-of-speech (PoS) taggin
 ## Getting Started
 
 To install PyTorch, see installation instructions on the [PyTorch website](pytorch.org).
+
 To download, conll 2003 dataset formatted for this code (thanks to Hugging Face!): 
 * [Training set](https://drive.google.com/file/d/1PTfU4nI6aKrV9xsASFbOUf6Lkwxo1eD9/view?usp=sharing)
 * [Testing set](https://drive.google.com/file/d/1RS4QIIv6TpCfden6bONfC1I4YqsJsBjA/view?usp=sharing)
 * [Validation set](https://drive.google.com/file/d/1pkBoTOc1VE9kqGeGsjq57AgOAqjU6f0M/view?usp=sharing)
+
 To download, word vectors trained using word2vec:
 * [word vectors](https://drive.google.com/file/d/1v4VAsPCz6vqXrDqcF91i0okUnxZN3W_H/view?usp=sharing)
 
