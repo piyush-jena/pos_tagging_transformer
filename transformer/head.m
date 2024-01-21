@@ -28,8 +28,13 @@ classdef head < handle
             obj.inter.v = x * obj.value;
             obj.inter.C = size(x, 2);
 
-            obj.inter.wei = obj.inter.q * transpose(obj.inter.k) / obj.inter.C;
-            obj.inter.swei = softmax(obj.inter.wei, 2);
+            obj.inter.wei = obj.inter.q * transpose(obj.inter.k) / obj.inter.C;            
+            %obj.inter.swei = softmax(obj.inter.wei, 2);
+            
+            %softmax
+            obj.inter.swei = exp(obj.inter.wei - max(obj.inter.wei, [], 2));
+            obj.inter.swei = obj.inter.swei ./ sum(obj.inter.swei, 2);
+
             out = obj.inter.swei * obj.inter.v;
         end
 
